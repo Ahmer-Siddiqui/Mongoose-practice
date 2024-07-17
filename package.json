@@ -1,19 +1,16 @@
 {
-  "name": "mymongodb",
+  "name": "mongoose-practice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --watch server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
   }
 }
