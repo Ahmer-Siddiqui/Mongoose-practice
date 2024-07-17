@@ -6,7 +6,7 @@ const port = 5000;
 
 app.use(express.json())
 
-app.use("/user",require("./routes/userRoute"))
+app.use("/book",require("./routes/bookRoute"))
 
 
 // app.get('/search/:key',async (req, res)=>{
